@@ -6,6 +6,22 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all instances of affiliate_links.json in any subfolder
+**/affiliate_links.json
+
+# Ignore all instances of google_docs.json in any subfolder
+**/tokendocs.json
+
+# Ignore all instances of google_drive.json in any subfolder
+**/tokendrive.json
+
+# Ignore all instances of credentials.json in any subfolder
+**/credentials.json
+
+# Ignore all instances of .DS_Store in any subfolder
+**/.DS_Store
+
+
 # Distribution / packaging
 .Python
 build/
